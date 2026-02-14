@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+    <libro id="1" categoria="ficcion" disponible="true" idioma="es">
+        <titulo>Don Quijote de la Mancha</titulo>
+        <autor pais="España">Miguel de Cervantes</autor>
+        <editorial>Cátedra</editorial>
+        <año>1605</año>
+        <precio moneda="EUR">25.50</precio>
+        <paginas>1200</paginas>
+        <isbn>978-84-376-0494-7</isbn>
+        <sinopsis>La historia de un hidalgo manchego que pierde la razón tras leer demasiados libros de caballerías y decide convertirse en caballero andante.</sinopsis>
+    </libro>
+
+    <libro id="2" categoria="poesia" disponible="true" idioma="es">
+        <titulo>Veinte poemas de amor y una canción desesperada</titulo>
+        <autor pais="Chile">Pablo Neruda</autor>
+        <editorial>Seix Barral</editorial>
+        <año>1924</año>
+        <precio moneda="EUR">12.00</precio>
+        <paginas>120</paginas>
+        <isbn>978-84-322-0091-3</isbn>
+        <sinopsis>Una de las obras más emblemáticas de la poesía amorosa en lengua española.</sinopsis>
+    </libro>
+
+    <libro id="3" categoria="ensayo" disponible="false" idioma="es">
+        <titulo>El laberinto de la soledad</titulo>
+        <autor pais="México">Octavio Paz</autor>
+        <editorial>Fondo de Cultura Económica</editorial>
+        <año>1950</año>
+        <precio moneda="EUR">18.90</precio>
+        <paginas>352</paginas>
+        <isbn>978-60-716-6096-3</isbn>
+        <sinopsis>Ensayo sobre la identidad mexicana y la búsqueda del ser en la sociedad contemporánea.</sinopsis>
+    </libro>
+
+    <libro id="4" categoria="tecnico" disponible="true" idioma="en">
+        <titulo>Clean Code: A Handbook of Agile Software Craftsmanship</titulo>
+        <autor pais="Estados Unidos">Robert C. Martin</autor>
+        <editorial>Prentice Hall</editorial>
+        <año>2008</año>
+        <precio moneda="EUR">42.50</precio>
+        <paginas>464</paginas>
+        <isbn>978-01-323-5088-4</isbn>
+        <sinopsis>Guía práctica sobre principios y técnicas para escribir código limpio, legible y mantenible.</sinopsis>
+    </libro>
+
+    <libro id="5" categoria="infantil" disponible="true" idioma="es">
+        <titulo>El Principito</titulo>
+        <autor pais="Francia">Antoine de Saint-Exupéry</autor>
+        <editorial>Salamandra</editorial>
+        <año>1943</año>
+        <precio moneda="EUR">9.50</precio>
+        <paginas>96</paginas>
+        <isbn>978-84-983-3807-7</isbn>
+        <sinopsis>Un príncipe de otro planeta viaja por el universo aprendiendo sobre el amor y la amistad.</sinopsis>
+    </libro>
+
+    <libro id="6" categoria="ficcion" disponible="true" idioma="es">
+        <titulo>Cien años de soledad</titulo>
+        <autor pais="Colombia">Gabriel García Márquez</autor>
+        <editorial>Sudamericana</editorial>
+        <año>1967</año>
+        <precio moneda="EUR">22.00</precio>
+        <paginas>471</paginas>
+        <isbn>978-03-073-8917-6</isbn>
+        <sinopsis>La historia de la familia Buendía en el pueblo ficticio de Macondo, obra cumbre del realismo mágico.</sinopsis>
+    </libro>
+
+    <libro id="7" categoria="poesia" disponible="false" idioma="es">
+        <titulo>Poeta en Nueva York</titulo>
+        <autor pais="España">Federico García Lorca</autor>
+        <año>1940</año>
+        <paginas>180</paginas>
+        <isbn>978-84-376-0122-9</isbn>
+        <sinopsis>Colección de poemas escritos durante la estancia del autor en Nueva York entre 1929 y 1930.</sinopsis>
+    </libro>
+
+    <libro id="8" categoria="ensayo" disponible="true" idioma="es">
+        <titulo>El arte de amar</titulo>
+        <autor pais="Alemania">Erich Fromm</autor>
+        <editorial>Paidós</editorial>
+        <año>1956</año>
+        <precio moneda="EUR">15.00</precio>
+        <paginas>224</paginas>
+        <isbn>978-84-493-0697-3</isbn>
+    </libro>
+
+    <libro id="9" categoria="ficcion" disponible="true" idioma="en">
+        <titulo>1984</titulo>
+        <autor pais="Inglaterra">George Orwell</autor>
+        <editorial>Secker &amp; Warburg</editorial>
+        <año>1949</año>
+        <precio moneda="EUR">19.90</precio>
+        <paginas>328</paginas>
+        <isbn>978-01-410-3614-4</isbn>
+        <sinopsis>Novela distópica sobre un futuro totalitario donde el Gran Hermano todo lo vigila.</sinopsis>
+    </libro>
+
+    <libro id="10" categoria="tecnico" disponible="true" idioma="en">
+        <titulo>Design Patterns: Elements of Reusable Object-Oriented Software</titulo>
+        <autor pais="Estados Unidos">Gang of Four</autor>
+        <editorial>Addison-Wesley</editorial>
+        <año>1994</año>
+        <precio moneda="EUR">48.00</precio>
+        <paginas>416</paginas>
+        <isbn>978-02-016-3361-0</isbn>
+        <sinopsis>Catálogo de soluciones reutilizables para problemas comunes en diseño de software orientado a objetos.</sinopsis>
+    </libro>
+
+    <libro id="11" categoria="infantil" disponible="true" idioma="es">
+        <titulo>Matilda</titulo>
+        <autor pais="Inglaterra">Roald Dahl</autor>
+        <editorial>Alfaguara</editorial>
+        <año>1988</año>
+        <precio moneda="EUR">12.50</precio>
+        <paginas>240</paginas>
+        <isbn>978-84-204-8184-3</isbn>
+        <sinopsis>Una niña extraordinariamente inteligente con poderes telequinéticos enfrenta a su terrible directora.</sinopsis>
+    </libro>
+
+    <libro id="12" categoria="ficcion" disponible="false" idioma="es">
+        <titulo>Rayuela</titulo>
+        <autor pais="Argentina">Julio Cortázar</autor>
+        <editorial>Sudamericana</editorial>
+        <año>1963</año>
+        <precio moneda="EUR">24.00</precio>
+        <paginas>736</paginas>
+        <isbn>978-03-072-4513-7</isbn>
+        <sinopsis>Novela experimental que puede leerse de múltiples formas, siguiendo diferentes órdenes de capítulos.</sinopsis>
+    </libro>
+
+    <libro id="13" categoria="poesia" disponible="true" idioma="es">
+        <titulo>Campos de Castilla</titulo>
+        <autor pais="España">Antonio Machado</autor>
+        <editorial>Cátedra</editorial>
+        <año>1912</año>
+        <paginas>192</paginas>
+        <isbn>978-84-376-0198-4</isbn>
+        <sinopsis>Poemas sobre el paisaje castellano y reflexiones sobre España y su historia.</sinopsis>
+    </libro>
+
+    <libro id="14" categoria="ensayo" disponible="true" idioma="es">
+        <titulo>El hombre en busca de sentido</titulo>
+        <autor pais="Austria">Viktor Frankl</autor>
+        <editorial>Herder</editorial>
+        <año>1946</año>
+        <precio moneda="EUR">17.50</precio>
+        <paginas>256</paginas>
+        <isbn>978-84-254-2331-7</isbn>
+        <sinopsis>Reflexiones sobre la búsqueda del sentido de la vida basadas en la experiencia del autor en campos de concentración nazis.</sinopsis>
+    </libro>
+
+    <libro id="15" categoria="tecnico" disponible="true" idioma="es">
+        <titulo>Aprende Python en un día</titulo>
+        <autor pais="España">Javier López</autor>
+        <editorial>Anaya Multimedia</editorial>
+        <año>2020</año>
+        <precio moneda="EUR">29.90</precio>
+        <paginas>384</paginas>
+        <isbn>978-84-415-4197-2</isbn>
+        <sinopsis>Guía práctica para aprender Python desde cero con ejemplos y ejercicios.</sinopsis>
+    </libro>
+
+    <libro id="16" categoria="ficcion" disponible="true" idioma="es">
+        <titulo>La sombra del viento</titulo>
+        <autor pais="España">Carlos Ruiz Zafón</autor>
+        <editorial>Planeta</editorial>
+        <año>2001</año>
+        <precio moneda="EUR">21.50</precio>
+        <paginas>576</paginas>
+        <isbn>978-84-080-6990-4</isbn>
+        <sinopsis>Un joven descubre un libro misterioso en el Cementerio de los Libros Olvidados de Barcelona.</sinopsis>
+    </libro>
+
+    <libro id="17" categoria="infantil" disponible="true" idioma="es">
+        <titulo>Charlie y la fábrica de chocolate</titulo>
+        <autor pais="Inglaterra">Roald Dahl</autor>
+        <editorial>Alfaguara</editorial>
+        <año>1964</año>
+        <precio moneda="EUR">11.90</precio>
+        <paginas>176</paginas>
+        <isbn>978-84-204-8181-2</isbn>
+        <sinopsis>Charlie Bucket gana un billete dorado para visitar la fantástica fábrica de chocolate de Willy Wonka.</sinopsis>
+    </libro>
+
+    <libro id="18" categoria="ficcion" disponible="true" idioma="en">
+        <titulo>To Kill a Mockingbird</titulo>
+        <autor pais="Estados Unidos">Harper Lee</autor>
+        <editorial>J. B. Lippincott &amp; Co.</editorial>
+        <año>1960</año>
+        <precio moneda="EUR">16.50</precio>
+        <paginas>324</paginas>
+        <isbn>978-00-605-9509-9</isbn>
+        <sinopsis>Novela sobre racismo y justicia en el sur de Estados Unidos durante la Gran Depresión.</sinopsis>
+    </libro>
+
+    <libro id="19" categoria="tecnico" disponible="false" idioma="en">
+        <titulo>The Pragmatic Programmer</titulo>
+        <autor pais="Estados Unidos">Andrew Hunt</autor>
+        <editorial>Addison-Wesley</editorial>
+        <año>1999</año>
+        <precio moneda="EUR">44.90</precio>
+        <paginas>352</paginas>
+        <isbn>978-02-016-1622-4</isbn>
+        <sinopsis>Consejos prácticos para convertirse en un mejor programador, independientemente del lenguaje.</sinopsis>
+    </libro>
+
+    <libro id="20" categoria="poesia" disponible="true" idioma="es">
+        <titulo>Antología poética</titulo>
+        <autor pais="Chile">Gabriela Mistral</autor>
+        <editorial>Losada</editorial>
+        <año>1941</año>
+        <precio moneda="EUR">14.00</precio>
+        <paginas>280</paginas>
+        <isbn>978-95-003-3458-2</isbn>
+        <sinopsis>Selección de los mejores poemas de la primera mujer latinoamericana en ganar el Premio Nobel de Literatura.</sinopsis>
+    </libro>
+</biblioteca>
