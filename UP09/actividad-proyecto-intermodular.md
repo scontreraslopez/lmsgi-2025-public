@@ -765,9 +765,10 @@ docs/api/
 │   └── error-400.json
 └── 3-openapi/
     ├── openapi.yaml          (tu especificación OpenAPI)
-    └── swagger-ui-dist/      (carpeta generada con el proyecto starting-swagger - ver Parte 3)
+    └── dist/      (carpeta generada con el proyecto starting-swagger - ver Parte 3)
         ├── index.html
-        └── ...
+        ├── swagger-ui-dist/
+
 ```
 
 **Nota:** El análisis de dominio puede entregarse en el formato que te resulte más cómodo: `.txt` (texto plano), `.md` (Markdown), `.docx` (Word) o `.pdf`.
