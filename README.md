@@ -22,6 +22,7 @@ El temario está organizado en unidades de aprendizaje (UP - Unidad de Programac
 ### UP08: XPath - Consulta de Información XML
 
 **Contenido evaluable:**
+
 - XPath 1.0: sintaxis, ejes de navegación, predicados y funciones
 - Consulta y filtrado de documentos XML
 - Herramientas para trabajar con XPath
@@ -30,11 +31,33 @@ El temario está organizado en unidades de aprendizaje (UP - Unidad de Programac
 📄 [Ir a UP08](./UP08/UP08.md)
 
 **Contenido de ampliación (NO evaluable):**
+
 - XSLT: Transformaciones XML
 - XSD: Esquemas avanzados XML
 - XPath 2.0/3.0
 
 📄 [Material de ampliación](./UP08/UP08-ampliacion.md)
+
+---
+
+### UP09: Gestión de la Información - RSS, JSON, YAML y OpenAPI
+
+**Contenido evaluable:**
+
+- RSS: estructura de feeds, elementos `<channel>` e `<item>`, casos de uso
+- JSON: sintaxis, tipos de datos, estructuras anidadas, comparativa con XML
+- YAML: sintaxis básica, tipos de datos, indentación, errores comunes
+- OpenAPI / Swagger: conceptos REST, estructura de una spec 3.0, herramientas (Swagger Editor, Swagger UI)
+- JSON Schema en contexto de OpenAPI: `components/schemas`, validaciones básicas
+
+📄 [Ir a UP09](./UP09/UP09.md)
+
+**Materiales de la actividad intermodular:**
+
+- 📄 [Actividad: Diseño de API REST para Proyecto Intermodular](./UP09/actividad-proyecto-intermodular.md)
+- 📄 [Ejemplo de análisis de dominio](./UP09/ejemplo-analisis-dominio.md)
+- 📄 [Base de datos mínima de ejemplo (para alumnos sin Proyecto Intermodular)](./UP09/ejemplo-bbdd-minima.md)
+- 📄 [Ejemplo de spec OpenAPI: API Restaurante v1](./UP09/api-restaurante-v1.yaml)
 
 ---
 
@@ -49,10 +72,12 @@ El temario está organizado en unidades de aprendizaje (UP - Unidad de Programac
 
 ## Herramientas Recomendadas
 
-- **Editor de código**: Visual Studio Code con extensiones XML
-- **Navegadores**: Chrome/Firefox con DevTools para XPath
-- **Validadores online**: Enlaces incluidos en cada unidad
-- **Python**: Para validación y procesamiento programático (opcional)
+- **Editor de código**: Visual Studio Code
+- **Validación XML/XPath**: Extensiones XML para VSCode, xmllint
+- **Swagger Editor**: [editor.swagger.io](https://editor.swagger.io/) para editar y validar specs OpenAPI
+- **JSONLint**: [jsonlint.com](https://jsonlint.com/) para validar sintaxis JSON
+- **YAML Lint**: [yamllint.com](http://www.yamllint.com/) para validar sintaxis YAML
+- **Navegadores**: Chrome/Firefox con DevTools
 
 ---
 
@@ -65,6 +90,7 @@ Solo el contenido marcado como **evaluable** en cada unidad entrará en exámene
 ### Contenido de Ampliación
 
 El material marcado como **ampliación** o **opcional**:
+
 - NO es obligatorio para aprobar
 - NO será evaluado en exámenes
 - Se proporciona para estudiantes con interés en profundizar
@@ -75,6 +101,7 @@ El material marcado como **ampliación** o **opcional**:
 ## Actualizaciones
 
 Este repositorio se actualiza periódicamente con:
+
 - Nuevas unidades de aprendizaje
 - Correcciones y mejoras del contenido
 - Ejemplos adicionales
@@ -96,26 +123,13 @@ Este repositorio se actualiza periódicamente con:
 ## Contacto y Soporte
 
 Para dudas sobre el contenido:
+
 - **Foro de Aules**: Canal principal de comunicación
 - **Tutorías**: Consulta horarios en Aules
-- **Issues de GitHub**: Para reportar errores en el material (si aplica)
-
----
-
-## Recursos Adicionales
-
-### Documentación Oficial
-- [W3C XPath Specification](https://www.w3.org/TR/xpath-10/)
-- [MDN Web Docs - XPath](https://developer.mozilla.org/es/docs/Web/XPath)
-
-### Tutoriales Recomendados
-- [Tutorial XPath - Eniun](https://www.eniun.com/tutorial-xpath/)
-- [W3Schools XML](https://www.w3schools.com/xml/)
+- **Issues de GitHub**: Para reportar errores en el material
 
 ---
 
 **Última actualización**: Febrero 2026
 
 **Curso**: 2025-2026
-
-**Profesor**: IES Severo Ochoa
