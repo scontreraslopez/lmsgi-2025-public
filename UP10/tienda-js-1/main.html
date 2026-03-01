@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechShop</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>🛒 TechShop</h1>
+        <p>Tu tienda de tecnología</p>
+    </header>
+
+    <main>
+
+        <!-- ===== CATÁLOGO ===== -->
+        <section id="catalogo">
+            <h2>Catálogo</h2>
+
+            <div class="producto" data-nombre="Teclado mecánico" data-precio="79.99">
+                <span class="producto-nombre">Teclado mecánico</span>
+                <span class="producto-precio">79,99 €</span>
+                <button class="btn-añadir">Añadir al carrito</button>
+            </div>
+
+            <div class="producto" data-nombre="Ratón inalámbrico" data-precio="34.50">
+                <span class="producto-nombre">Ratón inalámbrico</span>
+                <span class="producto-precio">34,50 €</span>
+                <button class="btn-añadir">Añadir al carrito</button>
+            </div>
+
+            <div class="producto" data-nombre="Alfombrilla XL" data-precio="19.95">
+                <span class="producto-nombre">Alfombrilla XL</span>
+                <span class="producto-precio">19,95 €</span>
+                <button class="btn-añadir">Añadir al carrito</button>
+            </div>
+
+            <div class="producto" data-nombre="USB-C Hub" data-precio="45.00">
+                <span class="producto-nombre">USB-C Hub</span>
+                <span class="producto-precio">45,00 €</span>
+                <button class="btn-añadir">Añadir al carrito</button>
+            </div>
+
+        </section>
+
+        <!-- ===== CARRITO ===== -->
+        <section id="carrito-section">
+            <h2>Carrito</h2>
+
+            <!-- Las líneas del carrito se añaden aquí con JS -->
+            <ul id="lista-carrito">
+                <!-- Ejemplo de una línea (el JS creará elementos como este):
+                <li>
+                    <span>Teclado mecánico — 79,99 €</span>
+                    <button class="btn-eliminar">✕</button>
+                </li>
+                -->
+            </ul>
+
+            <div id="resumen">
+                <p>Subtotal: <span id="subtotal">0,00 €</span></p>
+                <p>IVA (21%): <span id="iva">0,00 €</span></p>
+                <p class="total">TOTAL: <span id="total">0,00 €</span></p>
+            </div>
+
+            <button id="btn-vaciar">Vaciar carrito</button>
+
+        </section>
+
+    </main>
+
+    <!-- El alumno escribe su código en js/main.js -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>

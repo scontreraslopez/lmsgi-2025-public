@@ -1,0 +1,195 @@
+/* ============================================================
+   TechShop — Estilos
+   Fase 6 del miniproyecto UP10
+   ============================================================ */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+/* --- Cabecera --- */
+
+header {
+    background-color: #1a1a2e;
+    color: #fff;
+    padding: 20px 32px;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 4px;
+}
+
+header p {
+    font-size: 0.95rem;
+    color: #aaa;
+}
+
+/* --- Layout principal: catálogo | carrito --- */
+
+main {
+    display: flex;
+    gap: 24px;
+    padding: 24px 32px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+section {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+#catalogo {
+    flex: 1;
+}
+
+#carrito-section {
+    width: 320px;
+    flex-shrink: 0;
+}
+
+section h2 {
+    font-size: 1.1rem;
+    margin-bottom: 16px;
+    border-bottom: 2px solid #f0f2f5;
+    padding-bottom: 8px;
+}
+
+/* --- Tarjetas de producto --- */
+
+.producto {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 0;
+    border-bottom: 1px solid #f0f2f5;
+}
+
+.producto:last-child {
+    border-bottom: none;
+}
+
+.producto-nombre {
+    flex: 1;
+    font-size: 0.95rem;
+}
+
+.producto-precio {
+    font-weight: bold;
+    color: #1a1a2e;
+    min-width: 72px;
+    text-align: right;
+}
+
+.btn-añadir {
+    padding: 6px 14px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: background-color 0.2s;
+}
+
+.btn-añadir:hover {
+    background-color: #388e3c;
+}
+
+/* --- Lista del carrito --- */
+
+#lista-carrito {
+    list-style: none;
+    min-height: 80px;
+    margin-bottom: 16px;
+}
+
+#lista-carrito li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #f0f2f5;
+    font-size: 0.9rem;
+}
+
+#lista-carrito li:last-child {
+    border-bottom: none;
+}
+
+.btn-eliminar {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 3px 8px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: background-color 0.2s;
+}
+
+.btn-eliminar:hover {
+    background-color: #b71c1c;
+}
+
+/* --- Resumen de precios --- */
+
+#resumen {
+    background-color: #f0f2f5;
+    border-radius: 6px;
+    padding: 12px 16px;
+    margin-bottom: 12px;
+    font-size: 0.9rem;
+    line-height: 1.8;
+}
+
+#resumen .total {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #1a1a2e;
+    border-top: 1px solid #ccc;
+    margin-top: 4px;
+    padding-top: 6px;
+}
+
+/* --- Botón vaciar --- */
+
+#btn-vaciar {
+    width: 100%;
+    padding: 10px;
+    background-color: #e0e0e0;
+    color: #555;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.2s;
+}
+
+#btn-vaciar:hover {
+    background-color: #bdbdbd;
+}
+
+/* --- Responsive: apilado en pantalla pequeña --- */
+
+@media (max-width: 640px) {
+    main {
+        flex-direction: column;
+        padding: 16px;
+    }
+
+    #carrito-section {
+        width: 100%;
+    }
+}
