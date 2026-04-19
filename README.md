@@ -1,8 +1,8 @@
-# Temario LMSGI - CFGS DAM
+# Temario LMSGI - CFGS DAM / DAW
 
 ## IES Severo Ochoa - Curso 2025-26
 
-Este repositorio contiene los materiales didácticos de la asignatura **Lenguajes de Marcas y Sistemas de Gestión de Información (LMSGI)** para el Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM).
+Este repositorio contiene los materiales didácticos de la asignatura **Lenguajes de Marcas y Sistemas de Gestión de Información (LMSGI)** para el Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM) y Desarrollo de Aplicaciones Web (DAW).
 
 ---
 
