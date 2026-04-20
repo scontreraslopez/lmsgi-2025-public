@@ -288,7 +288,7 @@ Aprende a configurar una tienda online utilizando WooCommerce en WordPress.
   - Para cada producto, agrega nombre, descripción, precio, SKU, stock y una imagen destacada.
   - Explora las opciones avanzadas como atributos, variaciones y descuentos si lo deseas.
 - **Importa productos desde un archivo CSV o TXT**
-  - Descarga los CSV de muestra que proporciona WooCommerce en su carpeta `sample-data`.
+  - Descarga los CSV de muestra que proporciona WooCommerce en su carpeta `sample_products`. Los tienes también [enlace sample_products](./assets/sample_products.csv)
   - Sigue estos pasos para importar los productos:
     - En el panel de administración de WordPress, ve a **«Productos»**.
     - Haz clic en **«Importar»** (parte superior de la página).
