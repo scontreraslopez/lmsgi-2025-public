@@ -272,9 +272,6 @@ Practica la creación de un formulario de contacto utilizando el plugin **WPForm
 
 Aprende a configurar una tienda online utilizando WooCommerce en WordPress.
 
-> [!NOTE]
-> Es posible que añada más detalle o puntos no evaluables (*ampliación*) a este ejercicio, así que mantente atento a las actualizaciones. Considera esta parte de la práctica como relativa a la UP13, aunque se puede empezar a trabajar en ella desde ya. Lo core (y por tanto evaluable) no lo modificaré.
-
 **Instalación de WooCommerce:**
 
 - Sigue los pasos del [tutorial para instalar WooCommerce](https://www.eniun.com/tutorial-woocommerce/) en tu sitio web de WordPress.
@@ -287,7 +284,7 @@ Aprende a configurar una tienda online utilizando WooCommerce en WordPress.
 
 **Creación de productos:**
 
-- Crea al menos dos productos para tu tienda utilizando WooCommerce.
+- **Crea manualmente** al menos dos productos para tu tienda utilizando WooCommerce.
   - Para cada producto, agrega nombre, descripción, precio, SKU, stock y una imagen destacada.
   - Explora las opciones avanzadas como atributos, variaciones y descuentos si lo deseas.
 - **Importa productos desde un archivo CSV o TXT**
@@ -314,7 +311,11 @@ Aprende a configurar una tienda online utilizando WooCommerce en WordPress.
 
 ### 5.1. Entrega del ejercicio 5
 
-> **Captura de página completa de la página en la que se muestren los productos creados llamada `ejercicio5Tunombreyapellidos.png`. Se deben visualizar los productos creados manualmente y los creados mediante importación del CSV. También puedes entregar un vídeo explicativo**
+> **Captura de página completa de la página en la que se muestren los productos creados llamada `ejercicio5Tunombreyapellidos.png`. Se deben visualizar los productos creados manualmente y los creados mediante importación del CSV. También puedes entregar un vídeo explicativo**.
+
+Por favor asegúrate de tomar la captura de pantalla de la página completa, tál y cómo se explicó al principio de este documento.
+
+Un ejemplo mínimo de captura de pantalla lo tienes en la siguiente imagen: [Página de tienda con productos WooCommerce](./img/woocomerce-ejemplo.png)
 
 ---
 
