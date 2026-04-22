@@ -27,7 +27,7 @@ Un documento XML está bien formado si cumple:
 | Case sensitive | `<Libro>` es distinto de `<libro>` | Mezclar mayúsculas/minúsculas |
 | Nombre de etiqueta no empieza por número | `<item1>` | `<1item>` |
 | Nombre de etiqueta sin espacios | `<mi-elemento>` | `<mi elemento>` |
-| Nombre de etiqueta no empieza por `xml` | `<xmLdata>` (evitar) | `<xmlConfig>` (reservado) |
+| Nombre de etiqueta no empieza por `xml` (en mayúsculas o minúsculas) | `<data>` | `<xmlData>` |
 
 ---
 
@@ -71,7 +71,6 @@ Un documento XML está bien formado si cumple:
 **Reglas de nombres de elementos y atributos:**
 - Pueden contener letras, dígitos, `-`, `_`, `.`
 - Deben empezar por letra o `_`
-- No pueden empezar por `xml` (reservado)
 - Sin espacios
 
 ---
@@ -170,7 +169,7 @@ Varios atributos del mismo elemento en un solo `ATTLIST`:
 | `IDREFS` | Varias referencias a IDs (separadas por espacio) | `tags IDREFS #IMPLIED` |
 | `NMTOKEN` | Nombre XML válido (letras, dígitos, `-`, `_`, `.`) | `version NMTOKEN "1"` |
 | `NMTOKENS` | Varios NMTOKEN separados por espacio | — |
-| `(v1\|v2\|v3)` | Enumeración: solo esos valores | `(papel\|digital)` |
+| `(val1\|val2\|val3)` | Enumeración: solo esos valores | `(papel\|digital)` |
 
 ### Modificadores de atributo
 
@@ -268,7 +267,7 @@ Varios atributos del mismo elemento en un solo `ATTLIST`:
 
 | Concepto | Descripción |
 |---|---|
-| **Well-Formed** | Cumple las reglas sintácticas de XML |
-| **Válido** | Well-formed + cumple las reglas de la DTD (o XML Schema) |
+| **Bien Formado** | Cumple las reglas sintácticas de XML (*well-formed* en inglés) |
+| **Válido** | Bien formado + cumple las reglas de la DTD (o XML Schema) |
 | DTD interna | Definida dentro del mismo `.xml` en el `DOCTYPE` |
 | DTD externa | Archivo `.dtd` separado, referenciado con `SYSTEM` o `PUBLIC` |

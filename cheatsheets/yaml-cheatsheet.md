@@ -36,7 +36,7 @@ idiomas:
   - francés
 ```
 
-**Multilinea literal (`|`):**
+**Multilinea literal (`|`):** Preserva saltos de línea
 ```yaml
 descripcion: |
   Primera línea.
@@ -44,7 +44,7 @@ descripcion: |
   Tercera línea.
 ```
 
-**Multilinea plegado (`>`):**
+**Multilinea plegado (`>`):** Une las líenas en una sola
 ```yaml
 resumen: >
   Esta es una línea larga
