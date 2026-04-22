@@ -9,24 +9,25 @@ let x = 5;        // mutable: se puede reasignar
 const PI = 3.14;  // inmutable: no se puede reasignar
 ```
 
-- Convención de nombres: **camelCase** (`nombreCompleto`, `precioTotal`)
-- No puede empezar por un número: ~~`1nombre`~~
-- No puede contener espacios: ~~`mi variable`~~
-- Puede contener letras, dígitos, `_` y `$`
+- **No** puede empezar por un número: **INVÁLIDO** (`1nombre`)
+- **No** puede contener espacios: **INVÁLIDO** (`mi variable`)
+- **No** se puede usar palabras **reservadas**: **INVÁLIDO** (`let`, `function`, `if`, etc.)
+- **Sí** puede contener letras, dígitos, `_` y `$`: **VÁLIDO** (`_nombre`, `$precio`, `nombre1`)
+- Convención de nombres **camelCase** (`nombreCompleto`, `precioTotal`)
 
 ---
 
 ## 2. Tipos de datos y `typeof`
 
-| Valor           | `typeof`       | Nota                          |
-|-----------------|----------------|-------------------------------|
-| `42`            | `"number"`     |                               |
-| `3.14`          | `"number"`     | No hay tipo separado para decimales |
-| `"hola"`        | `"string"`     |                               |
-| `true` / `false`| `"boolean"`    |                               |
-| `null`          | `"object"`     | Bug histórico de JS — no es un objeto |
-| `undefined`     | `"undefined"`  | Variable declarada sin valor  |
-| `function() {}`| `"function"`   |                               |
+| Valor           | `typeof`       | Nota                                 |
+|  -------------- | -------------- | ------------------------------------ |
+| `42`            | `"number"`     |                                      |
+| `3.14`          | `"number"`     | No hay tipo separado para decimales  |
+| `"hola"`        | `"string"`     |                                      |
+| `true` / `false`| `"boolean"`    |                                      |
+| `null`          | `"object"`     | Cosa rara histórica de JavaScript    |
+| `undefined`     | `"undefined"`  | Variable declarada sin valor         |
+| `function() {}` | `"function"`   |                                      |
 
 ```js
 typeof 42         // "number"
@@ -71,18 +72,16 @@ console.log(`Resultado: ${2 + 2}`);           // "Resultado: 4"
 | `%`      | Módulo (resto)| `10 % 3` → `1`    |
 | `**`     | Potencia      | `2 ** 8` → `256`  |
 
-> **Módulo `%` es útil para:** saber si un número es par (`n % 2 === 0`), obtener el resto de una división, ciclar entre valores.
-
 ### Comparación
 
 | Operador | Tipo          | Ejemplo                    |
-|----------|---------------|----------------------------|
+| -------- | ------------- | -------------------------- |
 | `===`    | Estricta      | `5 === "5"` → `false`      |
 | `!==`    | Distinto estricto | `5 !== "5"` → `true`   |
 | `==`     | Débil (coerciona) | `5 == "5"` → `true`    |
-| `<`, `>`, `<=`, `>=` | Numérica | `3 < 5` → `true`   |
+| `<`, `>`, `<=`, `>=` | Numérica | `3 < 5` → `true`    |
 
-> **Regla:** usar siempre `===` y `!==`. El operador `==` hace coerción de tipos y puede dar resultados inesperados, son pocos los casos donde se recomienda su uso.
+> **Regla:** En general (prácticamente siempre) usar `===` y `!==`. El operador `==` hace coerción de tipos y puede dar resultados inesperados.
 
 ### Lógicos
 
@@ -95,9 +94,9 @@ console.log(`Resultado: ${2 + 2}`);           // "Resultado: 4"
 ### Coerción con `+`
 
 ```js
-"5" + 3   // "53"  — el + con un string concatena
-"5" - 3   // 2     — el - convierte el string a número
-"5" * 2   // 10    — igual con * y /
+"5" + 3   // "53"  - el + con un string concatena
+"5" - 3   // 2     - el - convierte el string a número
+"5" * 2   // 10    - igual con * y /
 ```
 
 ---
@@ -118,7 +117,7 @@ if (edad >= 18) {
 
 ```js
 const resultado = edad >= 18 ? "mayor" : "menor";
-// equivale a: si (edad >= 18) → "mayor", si no → "menor"
+// equivale a: si (edad >= 18) entonces "mayor", si no entonces "menor"
 ```
 
 ---
@@ -126,7 +125,7 @@ const resultado = edad >= 18 ? "mayor" : "menor";
 ## 6. Bucles
 
 ```js
-// for — cuando sabes cuántas veces se repite
+// for - cuando sabes cuántas veces se repite
 for (let i = 0; i < 5; i++) {
   console.log(i); // imprime 0, 1, 2, 3, 4
 }
@@ -137,11 +136,11 @@ for (let i = 0; i < frutas.length; i++) {
   console.log(frutas[i]);
 }
 
-// while — cuando depende de una condición
+// while - cuando depende de una condición
 let i = 0;
 while (i < 5) {
   console.log(i);
-  i++;  // ¡no olvides actualizar la variable o será infinito!
+  i++;
 }
 ```
 
@@ -170,10 +169,10 @@ function sumar(a, b) {
 console.log(sumar(3, 4)); // 7
 ```
 
-- **Parámetros:** variables que aparecen en la *definición* de la función
-- **Argumentos:** valores concretos que se pasan en la *llamada*
-- Sin `return` → la función devuelve `undefined`
-- Una función puede llamar a otra función
+- **Parámetros:** *variables* que aparecen en la *definición* de la función.
+- **Argumentos:** *valores* concretos que se pasan en la *llamada*
+- Sin `return` la función devuelve `undefined`.
+- Una función puede llamar a otra función.
 
 ---
 
@@ -182,11 +181,11 @@ console.log(sumar(3, 4)); // 7
 ```js
 const arr = [1, 2, 3];
 
-arr.push(4);          // añade al final    → [1, 2, 3, 4]
-arr.pop();            // elimina el último → [1, 2, 3]
-arr.length;           // número de elementos → 3
-arr[0];               // acceso por índice (empieza en 0) → 1
-arr[arr.length - 1];  // último elemento → 3
+  arr.push(4);          // añade al final:    [1, 2, 3, 4]
+  arr.pop();            // elimina el último: [1, 2, 3]
+  arr.length;           // número de elementos: 3
+  arr[0];               // acceso por índice (empieza en 0): 1
+  arr[arr.length - 1];  // último elemento: 3
 ```
 
 **Recorrer con `for`:**
@@ -204,7 +203,7 @@ for (let i = 0; i < colores.length; i++) {
 
 > Los índices empiezan en `0`. El último índice es `array.length - 1`.
 
----
+También es posible recorrer con `for...in` y `for...of` (más moderno)
 
 ## 9. Objetos
 
@@ -229,6 +228,7 @@ producto.marca = "Logitech";
 
 // Objeto con método (función dentro de objeto)
 const calculadora = {
+  fabricante: "Casio",
   sumar: function(a, b) {
     return a + b;
   }
@@ -259,9 +259,9 @@ titulo.innerHTML = "<em>Énfasis</em>";  // interpreta HTML (usar con cuidado)
 
 // --- MODIFICAR ESTILOS Y CLASES ---
 
-elemento.style.color = "red";
-elemento.classList.add("activo");
-elemento.classList.remove("activo");
+elemento.style.color = "red"; // modifica el estilo CSS directamente
+elemento.classList.add("activo"); // añade la clase "activo"
+elemento.classList.remove("activo"); // quita la clase "activo"
 elemento.classList.toggle("activo");    // añade si no está, quita si está
 
 
@@ -278,14 +278,14 @@ boton.addEventListener("click", function() {
 
 // --- ESPERAR A QUE CARGUE EL DOM ---
 
-document.addEventListener("DOMContentLoaded", function() {
-  // El HTML ya está cargado, es seguro acceder al DOM aquí
-  const elemento = document.querySelector("#miId");
-  console.log(elemento);
-});
+// Usando defer en el script (recomendado para scripts externos)
+<head>
+  ...
+<script src="script.js" defer></script>
+</head>
 ```
 
-> **Buena práctica:** envolver el código JS en `DOMContentLoaded` cuando el `<script>` está en el `<head>`, o colocar el `<script>` justo antes de `</body>`.
+Usa `DOMContentLoaded` si el script fuese inline.
 
 ```js
 // --- CREAR E INSERTAR ELEMENTOS ---
@@ -306,17 +306,4 @@ lista.prepend(li);            // al principio
 elemento.remove();            // eliminar un elemento del DOM
 ```
 
-**Ejemplo completo:** añadir un `<li>` a una lista al hacer click
-
-```js
-const boton = document.querySelector("#btn-anadir");
-const ul = document.querySelector("#mi-lista");
-
-boton.addEventListener("click", function() {
-  const li = document.createElement("li");
-  li.textContent = "Elemento nuevo";
-  ul.appendChild(li);
-});
-```
-
-> **Flujo:** `createElement` → asignar `textContent` → `appendChild`. Estos tres pasos son siempre los mismos.
+> **Flujo:** `createElement` -> asignar `textContent` -> `appendChild`. Estos tres pasos son siempre los mismos.
