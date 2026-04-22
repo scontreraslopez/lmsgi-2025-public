@@ -61,6 +61,56 @@ El temario está organizado en unidades de aprendizaje (UP - Unidad de Programac
 
 ---
 
+### UP10: Introducción a JavaScript
+
+**Contenido evaluable:**
+
+- Variables, tipos de datos y operadores
+- Funciones y estructuras de control (bucles, condicionales)
+- Sintaxis básica de JavaScript
+- Ejercicios prácticos de código
+
+📄 [Ir a UP10](./UP10/UP10.md)
+
+**Contenido de fundamentos (para alumnado sin base en programación):**
+
+📄 [Fundamentos de algoritmia y programación](./UP10/UP10-fundamentos.md)
+
+---
+
+### UP11: JavaScript II — DOM y Eventos
+
+**Contenido evaluable:**
+
+- Manipulación del DOM con JavaScript
+- Gestión de eventos (click, input, etc.)
+- Integración de JavaScript con HTML y CSS
+
+📄 [Ir a UP11](./UP11/UP11.md)
+
+**Contenido de ampliación (NO evaluable):**
+
+- Funciones de orden superior: `map`, `filter`, `reduce`, callbacks
+
+📄 [Material de ampliación](./UP11/UP11-ampliacion.md)
+
+---
+
+### UP12-UP13: Sistemas de Gestión de Información — WordPress y WooCommerce
+
+**Contenido evaluable:**
+
+- Introducción a los Sistemas de Gestión de Información (ERP, CRM, CMS...)
+- WordPress: instalación, configuración y gestión de contenidos
+- WooCommerce: gestión de productos, pedidos y tienda online
+- Publicación y mantenimiento de un sitio web con WordPress
+
+📄 [Ir a UP12-UP13](./UP12-UP13/UP12-UP13.md)
+
+📄 [Actividades UP12-UP13](./UP12-UP13/UP12-UP13-actividades.md)
+
+---
+
 ## Cómo Usar Este Repositorio
 
 1. **Lectura del contenido**: Cada archivo `.md` contiene la teoría y ejemplos prácticos
@@ -130,6 +180,6 @@ Para dudas sobre el contenido:
 
 ---
 
-**Última actualización**: Febrero 2026
+**Última actualización**: Abril 2026
 
 **Curso**: 2025-2026
