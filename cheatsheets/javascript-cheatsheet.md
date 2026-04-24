@@ -256,6 +256,11 @@ const titulo = document.querySelector("h1");
 titulo.textContent = "Nuevo título";    // solo texto plano (más seguro)
 titulo.innerHTML = "<em>Énfasis</em>";  // interpreta HTML (usar con cuidado)
 
+// Para campos de formulario (input, select, textarea) usar .value
+const campo = document.querySelector("#nombre");
+campo.value = "Ana";          // leer o escribir el valor del input
+console.log(campo.value);     // leer lo que el usuario ha escrito
+
 
 // --- MODIFICAR ESTILOS Y CLASES ---
 
@@ -285,7 +290,7 @@ boton.addEventListener("click", function() {
 </head>
 ```
 
-Usa `DOMContentLoaded` si el script fuese inline.
+Usa `DOMContentLoaded` si el script fuese inline. Alternativamente puedes insertar el script justo antes de cerrar el `</body>` para asegurarte de que el DOM ya está cargado.
 
 ```js
 // --- CREAR E INSERTAR ELEMENTOS ---

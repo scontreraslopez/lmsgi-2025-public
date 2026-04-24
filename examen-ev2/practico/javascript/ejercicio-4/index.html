@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Registro</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 480px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      margin-bottom: 20px;
+    }
+    label {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      font-size: 0.9rem;
+      color: #555;
+      font-weight: bold;
+    }
+    input {
+      padding: 8px 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+      font-weight: normal;
+    }
+    button {
+      padding: 10px 20px;
+      background: #4a90d9;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #357abd;
+    }
+  </style>
+</head>
+<body>
+  <h1>Formulario de Registro</h1>
+  <form id="formulario">
+    <label>
+      Nombre
+      <input type="text" id="nombre" placeholder="Tu nombre">
+    </label>
+    <label>
+      Apellidos
+      <input type="text" id="apellidos" placeholder="Tus apellidos">
+    </label>
+    <label>
+      Email
+      <input type="email" id="email" placeholder="correo@ejemplo.com">
+    </label>
+    <label>
+      Telefono
+      <input type="tel" id="telefono" placeholder="612 345 678">
+    </label>
+    <label>
+      Ciudad
+      <input type="text" id="ciudad" placeholder="Ciudad">
+    </label>
+    <label>
+      Edad
+      <input type="number" id="edad" placeholder="25" min="0" max="120">
+    </label>
+    <input type="submit" id="enviar" value="Enviar formulario">
+  </form>
+  <button id="btn-rellenar">Rellenar con datos de prueba</button>
+  <script src="starting.js"></script>
+</body>
+</html>

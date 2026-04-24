@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FizzBuzz Trainer</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 400px;
+      margin: 40px auto;
+      text-align: center;
+      padding: 0 20px;
+    }
+    #numero-actual {
+      font-size: 2rem;
+      margin: 24px 0;
+    }
+    #numero {
+      font-weight: bold;
+      color: #4a90d9;
+    }
+    .botones {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+    button {
+      padding: 12px 22px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      opacity: 0.8;
+    }
+    #btn-numero   { background: #e0e0e0; }
+    #btn-fizz     { background: #a8d8a8; }
+    #btn-buzz     { background: #f4c790; }
+    #btn-fizzbuzz { background: #c3b1e1; }
+    #historial {
+      text-align: left;
+      max-height: 320px;
+      overflow-y: auto;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 10px 20px;
+      list-style: decimal;
+    }
+    #historial li {
+      padding: 4px 0;
+      border-bottom: 1px solid #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <h1>FizzBuzz Trainer</h1>
+  <p id="numero-actual">Número actual: <span id="numero">1</span></p>
+  <div class="botones">
+    <button id="btn-numero">Número</button>
+    <button id="btn-fizz">Fizz</button>
+    <button id="btn-buzz">Buzz</button>
+    <button id="btn-fizzbuzz">FizzBuzz</button>
+  </div>
+  <ol id="historial"></ol>
+  <script src="starting.js"></script>
+</body>
+</html>
