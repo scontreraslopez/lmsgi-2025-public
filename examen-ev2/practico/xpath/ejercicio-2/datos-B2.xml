@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<campus>
+
+  <expediente id="EXP001" curso="2024-25">
+    <estudiante dni="12345678A">
+      <nombre>Laura Gomez Santos</nombre>
+      <email>lgomez@alumnos.upv.es</email>
+      <grado>Ingenieria Informatica</grado>
+    </estudiante>
+    <asignatura codigo="SO101" creditos="6">
+      <nombre>Sistemas Operativos</nombre>
+      <tipo>obligatoria</tipo>
+      <departamento>Sistemas Informaticos</departamento>
+      <facultad>Informatica</facultad>
+    </asignatura>
+    <profesor nif="45678901A">
+      <nombre>Ana Garcia Lopez</nombre>
+      <categoria>titular</categoria>
+      <departamento>Sistemas Informaticos</departamento>
+    </profesor>
+    <calificacion>
+      <convocatoria>ordinaria</convocatoria>
+      <nota>7.5</nota>
+      <fecha>2025-06-15</fecha>
+    </calificacion>
+  </expediente>
+
+  <expediente id="EXP002" curso="2024-25">
+    <estudiante dni="87654321B">
+      <nombre>Carlos Ruiz Herrero</nombre>
+      <email>cruiz@alumnos.upv.es</email>
+      <grado>Ingenieria Informatica</grado>
+    </estudiante>
+    <asignatura codigo="SO101" creditos="6">
+      <nombre>Sistemas Operativos</nombre>
+      <tipo>obligatoria</tipo>
+      <departamento>Sistemas Informaticos</departamento>
+      <facultad>Informatica</facultad>
+    </asignatura>
+    <profesor nif="45678901A">
+      <nombre>Ana Garcia Lopez</nombre>
+      <categoria>titular</categoria>
+      <departamento>Sistemas Informaticos</departamento>
+    </profesor>
+    <calificacion>
+      <convocatoria>ordinaria</convocatoria>
+      <nota>4.0</nota>
+      <fecha>2025-06-15</fecha>
+      <observaciones>Pendiente de revision</observaciones>
+    </calificacion>
+  </expediente>
+
+  <expediente id="EXP003" curso="2024-25">
+    <estudiante dni="87654321B">
+      <nombre>Carlos Ruiz Herrero</nombre>
+      <email>cruiz@alumnos.upv.es</email>
+      <grado>Ingenieria Informatica</grado>
+    </estudiante>
+    <asignatura codigo="SO101" creditos="6">
+      <nombre>Sistemas Operativos</nombre>
+      <tipo>obligatoria</tipo>
+      <departamento>Sistemas Informaticos</departamento>
+      <facultad>Informatica</facultad>
+    </asignatura>
+    <profesor nif="45678901A">
+      <nombre>Ana Garcia Lopez</nombre>
+      <categoria>titular</categoria>
+      <departamento>Sistemas Informaticos</departamento>
+    </profesor>
+    <calificacion>
+      <convocatoria>extraordinaria</convocatoria>
+      <nota>6.0</nota>
+      <fecha>2025-09-10</fecha>
+    </calificacion>
+  </expediente>
+
+  <expediente id="EXP004" curso="2024-25">
+    <estudiante dni="11223344C">
+      <nombre>Maria Santos Vidal</nombre>
+      <email>msantos@alumnos.upv.es</email>
+      <grado>Matematicas</grado>
+    </estudiante>
+    <asignatura codigo="ALG301" creditos="6">
+      <nombre>Algebra Lineal</nombre>
+      <tipo>obligatoria</tipo>
+      <departamento>Matematicas</departamento>
+      <facultad>Ciencias</facultad>
+    </asignatura>
+    <profesor nif="67890123E">
+      <nombre>Elena Blanco Campos</nombre>
+      <categoria>titular</categoria>
+      <departamento>Matematicas</departamento>
+    </profesor>
+    <calificacion>
+      <convocatoria>ordinaria</convocatoria>
+      <nota>9.0</nota>
+      <fecha>2025-06-18</fecha>
+    </calificacion>
+  </expediente>
+
+  <expediente id="EXP005" curso="2024-25">
+    <estudiante dni="44332211D">
+      <nombre>Pedro Alonso Marcos</nombre>
+      <email>palonso@alumnos.upv.es</email>
+      <grado>Ingenieria Informatica</grado>
+    </estudiante>
+    <asignatura codigo="POO202" creditos="6">
+      <nombre>Programacion Orientada a Objetos</nombre>
+      <tipo>obligatoria</tipo>
+      <departamento>Ingenieria del Software</departamento>
+      <facultad>Informatica</facultad>
+    </asignatura>
+    <profesor nif="34567890C">
+      <nombre>Jorge Fernandez Mora</nombre>
+      <categoria>titular</categoria>
+      <departamento>Ingenieria del Software</departamento>
+    </profesor>
+    <calificacion>
+      <convocatoria>ordinaria</convocatoria>
+      <nota>8.5</nota>
+      <fecha>2025-06-20</fecha>
+    </calificacion>
+  </expediente>
+
+  <expediente id="EXP006" curso="2024-25">
+    <estudiante dni="12345678A">
+      <nombre>Laura Gomez Santos</nombre>
+      <email>lgomez@alumnos.upv.es</email>
+      <grado>Ingenieria Informatica</grado>
+    </estudiante>
+    <asignatura codigo="POO202" creditos="6">
+      <nombre>Programacion Orientada a Objetos</nombre>
+      <tipo>obligatoria</tipo>
+      <departamento>Ingenieria del Software</departamento>
+      <facultad>Informatica</facultad>
+    </asignatura>
+    <profesor nif="34567890C">
+      <nombre>Jorge Fernandez Mora</nombre>
+      <categoria>titular</categoria>
+      <departamento>Ingenieria del Software</departamento>
+    </profesor>
+    <calificacion>
+      <convocatoria>ordinaria</convocatoria>
+      <nota>5.0</nota>
+      <fecha>2025-06-20</fecha>
+    </calificacion>
+  </expediente>
+
+  <expediente id="EXP007" curso="2024-25">
+    <estudiante dni="55667788E">
+      <nombre>Sofia Navarro Leal</nombre>
+      <email>snavarro@alumnos.upv.es</email>
+      <grado>Matematicas</grado>
+    </estudiante>
+    <asignatura codigo="ALG301" creditos="6">
+      <nombre>Algebra Lineal</nombre>
+      <tipo>obligatoria</tipo>
+      <departamento>Matematicas</departamento>
+      <facultad>Ciencias</facultad>
+    </asignatura>
+    <profesor nif="67890123E">
+      <nombre>Elena Blanco Campos</nombre>
+      <categoria>titular</categoria>
+      <departamento>Matematicas</departamento>
+    </profesor>
+    <calificacion>
+      <convocatoria>ordinaria</convocatoria>
+      <nota>3.5</nota>
+      <fecha>2025-06-18</fecha>
+      <observaciones>No presentado a parte practica</observaciones>
+    </calificacion>
+  </expediente>
+
+  <expediente id="EXP008" curso="2024-25">
+    <estudiante dni="55667788E">
+      <nombre>Sofia Navarro Leal</nombre>
+      <email>snavarro@alumnos.upv.es</email>
+      <grado>Matematicas</grado>
+    </estudiante>
+    <asignatura codigo="ALG301" creditos="6">
+      <nombre>Algebra Lineal</nombre>
+      <tipo>obligatoria</tipo>
+      <departamento>Matematicas</departamento>
+      <facultad>Ciencias</facultad>
+    </asignatura>
+    <profesor nif="67890123E">
+      <nombre>Elena Blanco Campos</nombre>
+      <categoria>titular</categoria>
+      <departamento>Matematicas</departamento>
+    </profesor>
+    <calificacion>
+      <convocatoria>extraordinaria</convocatoria>
+      <nota>5.5</nota>
+      <fecha>2025-09-12</fecha>
+    </calificacion>
+  </expediente>
+
+  <expediente id="EXP009" curso="2024-25">
+    <estudiante dni="87654321B">
+      <nombre>Carlos Ruiz Herrero</nombre>
+      <email>cruiz@alumnos.upv.es</email>
+      <grado>Ingenieria Informatica</grado>
+    </estudiante>
+    <asignatura codigo="AGIL205" creditos="4">
+      <nombre>Desarrollo Agil</nombre>
+      <tipo>optativa</tipo>
+      <departamento>Ingenieria del Software</departamento>
+      <facultad>Informatica</facultad>
+    </asignatura>
+    <profesor nif="56789012D">
+      <nombre>Sofia Ruiz Navarro</nombre>
+      <categoria>visitante</categoria>
+      <departamento>Ingenieria del Software</departamento>
+      <email>sruiz@upv.es</email>
+    </profesor>
+    <calificacion>
+      <convocatoria>ordinaria</convocatoria>
+      <nota>7.0</nota>
+      <fecha>2025-06-22</fecha>
+    </calificacion>
+  </expediente>
+
+  <expediente id="EXP010" curso="2024-25">
+    <estudiante dni="44332211D">
+      <nombre>Pedro Alonso Marcos</nombre>
+      <email>palonso@alumnos.upv.es</email>
+      <grado>Ingenieria Informatica</grado>
+    </estudiante>
+    <asignatura codigo="AGIL205" creditos="4">
+      <nombre>Desarrollo Agil</nombre>
+      <tipo>optativa</tipo>
+      <departamento>Ingenieria del Software</departamento>
+      <facultad>Informatica</facultad>
+    </asignatura>
+    <profesor nif="56789012D">
+      <nombre>Sofia Ruiz Navarro</nombre>
+      <categoria>visitante</categoria>
+      <departamento>Ingenieria del Software</departamento>
+      <email>sruiz@upv.es</email>
+    </profesor>
+    <calificacion>
+      <convocatoria>ordinaria</convocatoria>
+      <nota>9.5</nota>
+      <fecha>2025-06-22</fecha>
+    </calificacion>
+  </expediente>
+
+  <expediente id="EXP011" curso="2024-25">
+    <estudiante dni="12345678A">
+      <nombre>Laura Gomez Santos</nombre>
+      <email>lgomez@alumnos.upv.es</email>
+      <grado>Ingenieria Informatica</grado>
+    </estudiante>
+    <asignatura codigo="RED102" creditos="6">
+      <nombre>Redes de Computadores</nombre>
+      <tipo>obligatoria</tipo>
+      <departamento>Sistemas Informaticos</departamento>
+      <facultad>Informatica</facultad>
+    </asignatura>
+    <profesor nif="23456789B">
+      <nombre>Luis Martinez Perez</nombre>
+      <categoria>asociado</categoria>
+      <departamento>Sistemas Informaticos</departamento>
+    </profesor>
+    <calificacion>
+      <convocatoria>ordinaria</convocatoria>
+      <nota>6.5</nota>
+      <fecha>2025-06-16</fecha>
+    </calificacion>
+  </expediente>
+
+  <expediente id="EXP012" curso="2024-25">
+    <estudiante dni="11223344C">
+      <nombre>Maria Santos Vidal</nombre>
+      <email>msantos@alumnos.upv.es</email>
+      <grado>Matematicas</grado>
+    </estudiante>
+    <asignatura codigo="EST302" creditos="4">
+      <nombre>Estadistica</nombre>
+      <tipo>obligatoria</tipo>
+      <departamento>Matematicas</departamento>
+      <facultad>Ciencias</facultad>
+    </asignatura>
+    <profesor nif="78901234F">
+      <nombre>Roberto Castro Vega</nombre>
+      <categoria>titular</categoria>
+      <departamento>Matematicas</departamento>
+    </profesor>
+    <calificacion>
+      <convocatoria>ordinaria</convocatoria>
+      <nota>8.0</nota>
+      <fecha>2025-06-19</fecha>
+    </calificacion>
+  </expediente>
+
+  <expediente id="EXP013" curso="2024-25">
+    <estudiante dni="44332211D">
+      <nombre>Pedro Alonso Marcos</nombre>
+      <email>palonso@alumnos.upv.es</email>
+      <grado>Ingenieria Informatica</grado>
+    </estudiante>
+    <asignatura codigo="RED102" creditos="6">
+      <nombre>Redes de Computadores</nombre>
+      <tipo>obligatoria</tipo>
+      <departamento>Sistemas Informaticos</departamento>
+      <facultad>Informatica</facultad>
+    </asignatura>
+    <profesor nif="23456789B">
+      <nombre>Luis Martinez Perez</nombre>
+      <categoria>asociado</categoria>
+      <departamento>Sistemas Informaticos</departamento>
+    </profesor>
+    <calificacion>
+      <convocatoria>ordinaria</convocatoria>
+      <nota>4.5</nota>
+      <fecha>2025-06-16</fecha>
+    </calificacion>
+  </expediente>
+
+  <expediente id="EXP014" curso="2024-25">
+    <estudiante dni="44332211D">
+      <nombre>Pedro Alonso Marcos</nombre>
+      <email>palonso@alumnos.upv.es</email>
+      <grado>Ingenieria Informatica</grado>
+    </estudiante>
+    <asignatura codigo="RED102" creditos="6">
+      <nombre>Redes de Computadores</nombre>
+      <tipo>obligatoria</tipo>
+      <departamento>Sistemas Informaticos</departamento>
+      <facultad>Informatica</facultad>
+    </asignatura>
+    <profesor nif="23456789B">
+      <nombre>Luis Martinez Perez</nombre>
+      <categoria>asociado</categoria>
+      <departamento>Sistemas Informaticos</departamento>
+    </profesor>
+    <calificacion>
+      <convocatoria>extraordinaria</convocatoria>
+      <nota>5.0</nota>
+      <fecha>2025-09-08</fecha>
+    </calificacion>
+  </expediente>
+
+  <expediente id="EXP015" curso="2024-25">
+    <estudiante dni="55667788E">
+      <nombre>Sofia Navarro Leal</nombre>
+      <email>snavarro@alumnos.upv.es</email>
+      <grado>Matematicas</grado>
+    </estudiante>
+    <asignatura codigo="EST302" creditos="4">
+      <nombre>Estadistica</nombre>
+      <tipo>obligatoria</tipo>
+      <departamento>Matematicas</departamento>
+      <facultad>Ciencias</facultad>
+    </asignatura>
+    <profesor nif="78901234F">
+      <nombre>Roberto Castro Vega</nombre>
+      <categoria>titular</categoria>
+      <departamento>Matematicas</departamento>
+    </profesor>
+    <calificacion>
+      <convocatoria>ordinaria</convocatoria>
+      <nota>7.5</nota>
+      <fecha>2025-06-19</fecha>
+    </calificacion>
+  </expediente>
+
+  <expediente id="EXP016" curso="2024-25">
+    <estudiante dni="87654321B">
+      <nombre>Carlos Ruiz Herrero</nombre>
+      <email>cruiz@alumnos.upv.es</email>
+      <grado>Ingenieria Informatica</grado>
+    </estudiante>
+    <asignatura codigo="POO202" creditos="6">
+      <nombre>Programacion Orientada a Objetos</nombre>
+      <tipo>obligatoria</tipo>
+      <departamento>Ingenieria del Software</departamento>
+      <facultad>Informatica</facultad>
+    </asignatura>
+    <profesor nif="34567890C">
+      <nombre>Jorge Fernandez Mora</nombre>
+      <categoria>titular</categoria>
+      <departamento>Ingenieria del Software</departamento>
+    </profesor>
+    <calificacion>
+      <convocatoria>ordinaria</convocatoria>
+      <nota>8.5</nota>
+      <fecha>2025-06-20</fecha>
+    </calificacion>
+  </expediente>
+
+  <expediente id="EXP017" curso="2024-25">
+    <estudiante dni="11223344C">
+      <nombre>Maria Santos Vidal</nombre>
+      <email>msantos@alumnos.upv.es</email>
+      <grado>Matematicas</grado>
+    </estudiante>
+    <asignatura codigo="AGIL205" creditos="4">
+      <nombre>Desarrollo Agil</nombre>
+      <tipo>optativa</tipo>
+      <departamento>Ingenieria del Software</departamento>
+      <facultad>Informatica</facultad>
+    </asignatura>
+    <profesor nif="56789012D">
+      <nombre>Sofia Ruiz Navarro</nombre>
+      <categoria>visitante</categoria>
+      <departamento>Ingenieria del Software</departamento>
+      <email>sruiz@upv.es</email>
+    </profesor>
+    <calificacion>
+      <convocatoria>ordinaria</convocatoria>
+      <nota>6.0</nota>
+      <fecha>2025-06-22</fecha>
+    </calificacion>
+  </expediente>
+
+</campus>
