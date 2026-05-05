@@ -1,0 +1,30 @@
+<!-- DTD: Recetario de Cocina -->
+
+<!ELEMENT recetario (ingredientes, receta+)>
+
+<!ELEMENT ingredientes (ingrediente+)>
+
+<!ELEMENT ingrediente (nombre)>
+<!ATTLIST ingrediente
+    id   ID                                  #REQUIRED
+    tipo (verdura|carne|lacteo|cereal|otro)  #REQUIRED
+>
+
+<!ELEMENT nombre (#PCDATA)>
+
+<!ELEMENT receta (nombre, tiempo, paso+, ingrediente_usado+, valoracion?)>
+<!ATTLIST receta
+    dificultad (facil|media|dificil) #REQUIRED
+>
+
+<!ELEMENT tiempo (#PCDATA)>
+
+<!ELEMENT paso (#PCDATA)>
+
+<!ELEMENT ingrediente_usado EMPTY>
+<!ATTLIST ingrediente_usado
+    id_ingrediente IDREF  #REQUIRED
+    cantidad       CDATA  #REQUIRED
+>
+
+<!ELEMENT valoracion (#PCDATA)>

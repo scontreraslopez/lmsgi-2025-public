@@ -1,0 +1,37 @@
+<!-- DTD: Plataforma de Videojuegos -->
+
+<!ELEMENT plataforma (catalogo, jugador+)>
+
+<!ELEMENT catalogo (juego+)>
+
+<!ELEMENT juego (titulo, genero, plataforma_juego+, precio, multijugador?)>
+<!ATTLIST juego
+    id ID #REQUIRED
+>
+
+<!ELEMENT titulo (#PCDATA)>
+
+<!ELEMENT genero EMPTY>
+<!ATTLIST genero
+    tipo (accion|rpg|puzzle|deporte) #REQUIRED
+>
+
+<!ELEMENT plataforma_juego (#PCDATA)>
+
+<!ELEMENT precio (#PCDATA)>
+
+<!ELEMENT multijugador (#PCDATA)>
+
+<!ELEMENT jugador (nombre, juego_favorito+)>
+<!ATTLIST jugador
+    id ID #REQUIRED
+>
+
+<!ELEMENT nombre (#PCDATA)>
+
+<!ELEMENT juego_favorito (horas_jugadas?)>
+<!ATTLIST juego_favorito
+    id_juego IDREF #REQUIRED
+>
+
+<!ELEMENT horas_jugadas (#PCDATA)>

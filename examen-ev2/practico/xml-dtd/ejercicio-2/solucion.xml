@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recetario SYSTEM "solucion.dtd">
+
+<recetario>
+
+  <ingredientes>
+
+    <ingrediente id="ING001" tipo="verdura">
+      <nombre>Cebolla</nombre>
+    </ingrediente>
+
+    <ingrediente id="ING002" tipo="carne">
+      <nombre>Pollo</nombre>
+    </ingrediente>
+
+    <ingrediente id="ING003" tipo="lacteo">
+      <nombre>Queso parmesano</nombre>
+    </ingrediente>
+
+    <ingrediente id="ING004" tipo="cereal">
+      <nombre>Arroz</nombre>
+    </ingrediente>
+
+    <ingrediente id="ING005" tipo="verdura">
+      <nombre>Tomate</nombre>
+    </ingrediente>
+
+  </ingredientes>
+
+  <receta dificultad="facil">
+    <nombre>Arroz con pollo</nombre>
+    <tiempo>45 minutos</tiempo>
+    <paso>Cortar el pollo en trozos y salpimentar.</paso>
+    <paso>Sofreir la cebolla picada en una cazuela con aceite.</paso>
+    <paso>Anadir el pollo y dorarlo por todos los lados.</paso>
+    <paso>Incorporar el arroz y el doble de agua. Cocer a fuego medio durante 18 minutos.</paso>
+    <ingrediente_usado id_ingrediente="ING002" cantidad="500 g"/>
+    <ingrediente_usado id_ingrediente="ING001" cantidad="1 unidad"/>
+    <ingrediente_usado id_ingrediente="ING004" cantidad="200 g"/>
+    <valoracion>4.2 sobre 5. Plato sencillo y muy sabroso.</valoracion>
+  </receta>
+
+  <receta dificultad="media">
+    <nombre>Risotto de tomate y parmesano</nombre>
+    <tiempo>35 minutos</tiempo>
+    <paso>Calentar el caldo de verduras en un cazo aparte.</paso>
+    <paso>En una cazuela, sofreir la cebolla hasta que este transparente.</paso>
+    <paso>Incorporar el arroz y tostarlo un par de minutos.</paso>
+    <paso>Agregar el tomate triturado y mezclar bien.</paso>
+    <paso>Anadir el caldo poco a poco, removiendo constantemente, hasta que el arroz este cremoso.</paso>
+    <paso>Fuera del fuego, incorporar el queso parmesano rallado.</paso>
+    <ingrediente_usado id_ingrediente="ING004" cantidad="300 g"/>
+    <ingrediente_usado id_ingrediente="ING001" cantidad="1 unidad grande"/>
+    <ingrediente_usado id_ingrediente="ING005" cantidad="400 g triturado"/>
+    <ingrediente_usado id_ingrediente="ING003" cantidad="80 g rallado"/>
+  </receta>
+
+</recetario>

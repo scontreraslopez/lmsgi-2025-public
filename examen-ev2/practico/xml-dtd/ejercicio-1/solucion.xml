@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plataforma SYSTEM "solucion.dtd">
+
+<plataforma>
+
+  <catalogo>
+
+    <juego id="J001">
+      <titulo>The Legend of Zelda: Breath of the Wild</titulo>
+      <genero tipo="rpg"/>
+      <plataforma_juego>Nintendo Switch</plataforma_juego>
+      <plataforma_juego>Wii U</plataforma_juego>
+      <precio>59.99</precio>
+    </juego>
+
+    <juego id="J002">
+      <titulo>Street Fighter 6</titulo>
+      <genero tipo="accion"/>
+      <plataforma_juego>PlayStation 5</plataforma_juego>
+      <plataforma_juego>Xbox Series X</plataforma_juego>
+      <plataforma_juego>PC</plataforma_juego>
+      <precio>69.99</precio>
+      <multijugador>Online y local hasta 2 jugadores</multijugador>
+    </juego>
+
+    <juego id="J003">
+      <titulo>Portal 2</titulo>
+      <genero tipo="puzzle"/>
+      <plataforma_juego>PC</plataforma_juego>
+      <plataforma_juego>PlayStation 3</plataforma_juego>
+      <precio>9.99</precio>
+      <multijugador>Cooperativo online hasta 2 jugadores</multijugador>
+    </juego>
+
+  </catalogo>
+
+  <jugador id="JUG001">
+    <nombre>Laura Gomez</nombre>
+    <juego_favorito id_juego="J001">
+      <horas_jugadas>320</horas_jugadas>
+    </juego_favorito>
+    <juego_favorito id_juego="J003">
+      <horas_jugadas>45</horas_jugadas>
+    </juego_favorito>
+  </jugador>
+
+  <jugador id="JUG002">
+    <nombre>Carlos Ruiz</nombre>
+    <juego_favorito id_juego="J002"/>
+    <juego_favorito id_juego="J001"/>
+    <juego_favorito id_juego="J003">
+      <horas_jugadas>120</horas_jugadas>
+    </juego_favorito>
+  </jugador>
+
+</plataforma>
