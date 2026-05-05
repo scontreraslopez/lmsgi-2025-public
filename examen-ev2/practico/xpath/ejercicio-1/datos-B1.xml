@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filmoteca>
+
+  <pelicula id="P001" genero="ciencia_ficcion" idioma="en" disponible="true">
+    <titulo>Interstellar</titulo>
+    <director pais="GB">Christopher Nolan</director>
+    <año>2014</año>
+    <duracion>169</duracion>
+    <presupuesto moneda="USD">165000000</presupuesto>
+    <actores>
+      <actor>Matthew McConaughey</actor>
+      <actor>Anne Hathaway</actor>
+      <actor>Jessica Chastain</actor>
+    </actores>
+  </pelicula>
+
+  <pelicula id="P002" genero="drama" idioma="es" disponible="true">
+    <titulo>El laberinto del fauno</titulo>
+    <director pais="MX">Guillermo del Toro</director>
+    <año>2006</año>
+    <duracion>118</duracion>
+    <presupuesto moneda="USD">19000000</presupuesto>
+    <actores>
+      <actor>Ivana Baquero</actor>
+      <actor>Sergi Lopez</actor>
+    </actores>
+  </pelicula>
+
+  <pelicula id="P003" genero="comedia" idioma="en" disponible="true">
+    <titulo>The Grand Budapest Hotel</titulo>
+    <director pais="US">Wes Anderson</director>
+    <año>2014</año>
+    <duracion>99</duracion>
+    <presupuesto moneda="USD">25000000</presupuesto>
+    <actores>
+      <actor>Ralph Fiennes</actor>
+      <actor>Tony Revolori</actor>
+    </actores>
+  </pelicula>
+
+  <pelicula id="P004" genero="terror" idioma="en" disponible="false">
+    <titulo>Hereditary</titulo>
+    <director pais="US">Ari Aster</director>
+    <año>2018</año>
+    <duracion>127</duracion>
+    <presupuesto moneda="USD">10000000</presupuesto>
+    <actores>
+      <actor>Toni Collette</actor>
+      <actor>Gabriel Byrne</actor>
+    </actores>
+  </pelicula>
+
+  <pelicula id="P005" genero="animacion" idioma="es" disponible="true">
+    <titulo>El viaje de Chihiro</titulo>
+    <director pais="JP">Hayao Miyazaki</director>
+    <año>2001</año>
+    <duracion>125</duracion>
+    <presupuesto moneda="USD">19000000</presupuesto>
+    <actores>
+      <actor>Daveigh Chase</actor>
+      <actor>Suzanne Pleshette</actor>
+    </actores>
+  </pelicula>
+
+  <pelicula id="P006" genero="drama" idioma="fr" disponible="true">
+    <titulo>Amelie</titulo>
+    <director pais="FR">Jean-Pierre Jeunet</director>
+    <año>2001</año>
+    <duracion>122</duracion>
+    <presupuesto moneda="USD">10000000</presupuesto>
+    <actores>
+      <actor>Audrey Tautou</actor>
+      <actor>Mathieu Kassovitz</actor>
+    </actores>
+  </pelicula>
+
+  <pelicula id="P007" genero="ciencia_ficcion" idioma="en" disponible="true">
+    <titulo>Blade Runner 2049</titulo>
+    <director pais="CA">Denis Villeneuve</director>
+    <año>2017</año>
+    <duracion>164</duracion>
+    <presupuesto moneda="USD">150000000</presupuesto>
+    <actores>
+      <actor>Ryan Gosling</actor>
+      <actor>Harrison Ford</actor>
+    </actores>
+  </pelicula>
+
+  <pelicula id="P008" genero="comedia" idioma="es" disponible="true">
+    <titulo>El secreto de sus ojos</titulo>
+    <director pais="ES">Juan Jose Campanella</director>
+    <año>2009</año>
+    <duracion>129</duracion>
+    <actores>
+      <actor>Ricardo Darin</actor>
+      <actor>Soledad Villamil</actor>
+    </actores>
+  </pelicula>
+
+  <pelicula id="P009" genero="drama" idioma="en" disponible="false">
+    <titulo>Schindler's List</titulo>
+    <director pais="US">Steven Spielberg</director>
+    <año>1993</año>
+    <duracion>195</duracion>
+    <presupuesto moneda="USD">22000000</presupuesto>
+    <actores>
+      <actor>Liam Neeson</actor>
+      <actor>Ben Kingsley</actor>
+    </actores>
+  </pelicula>
+
+  <pelicula id="P010" genero="animacion" idioma="en" disponible="true">
+    <titulo>Spider-Man: Into the Spider-Verse</titulo>
+    <director pais="US">Bob Persichetti</director>
+    <año>2018</año>
+    <duracion>117</duracion>
+    <presupuesto moneda="USD">90000000</presupuesto>
+    <actores>
+      <actor>Shameik Moore</actor>
+      <actor>Hailee Steinfeld</actor>
+    </actores>
+  </pelicula>
+
+  <pelicula id="P011" genero="terror" idioma="en" disponible="true">
+    <titulo>Get Out</titulo>
+    <director pais="US">Jordan Peele</director>
+    <año>2017</año>
+    <duracion>104</duracion>
+    <presupuesto moneda="USD">4500000</presupuesto>
+    <actores>
+      <actor>Daniel Kaluuya</actor>
+      <actor>Allison Williams</actor>
+    </actores>
+  </pelicula>
+
+  <pelicula id="P012" genero="drama" idioma="es" disponible="true">
+    <titulo>Volver</titulo>
+    <director pais="ES">Pedro Almodovar</director>
+    <año>2006</año>
+    <duracion>121</duracion>
+    <presupuesto moneda="USD">5000000</presupuesto>
+    <actores>
+      <actor>Penelope Cruz</actor>
+      <actor>Carmen Maura</actor>
+    </actores>
+  </pelicula>
+
+  <pelicula id="P013" genero="ciencia_ficcion" idioma="en" disponible="true">
+    <titulo>Dune</titulo>
+    <director pais="CA">Denis Villeneuve</director>
+    <año>2021</año>
+    <duracion>155</duracion>
+    <presupuesto moneda="USD">165000000</presupuesto>
+    <actores>
+      <actor>Timothee Chalamet</actor>
+      <actor>Zendaya</actor>
+      <actor>Oscar Isaac</actor>
+    </actores>
+  </pelicula>
+
+  <pelicula id="P014" genero="comedia" idioma="fr" disponible="false">
+    <titulo>Le Diner de Cons</titulo>
+    <director pais="FR">Francis Veber</director>
+    <año>1998</año>
+    <duracion>80</duracion>
+    <actores>
+      <actor>Thierry Lhermitte</actor>
+      <actor>Jacques Villeret</actor>
+    </actores>
+  </pelicula>
+
+  <pelicula id="P015" genero="drama" idioma="es" disponible="true">
+    <titulo>El orfanato</titulo>
+    <director pais="ES">Juan Antonio Bayona</director>
+    <año>2007</año>
+    <duracion>105</duracion>
+    <presupuesto moneda="USD">4000000</presupuesto>
+    <actores>
+      <actor>Belen Rueda</actor>
+      <actor>Fernando Cayo</actor>
+    </actores>
+  </pelicula>
+
+</filmoteca>
